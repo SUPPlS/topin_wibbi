@@ -1,10 +1,15 @@
 body{
     background: linear-gradient(to bottom, #057bd4, #000c14);
+    background-size:auto;
+    background-position: center;
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    color: #000000;
+    color: #d400ff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0.5, 0.5);
     text-align: center;
     margin: 0;
     padding: 0;
@@ -17,14 +22,17 @@ h1{
     margin: 0;
     padding: 0;
 }
+
 h2{
     font-family: Verdana, sans-serif;
     font-weight: 400;
     margin: 0;
     padding: 0;
 }
+
 p{
     font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -38,7 +46,7 @@ a {
 }
 
 a:hover{
-    color:red;
+    color:rgb(255, 0, 200);
     font-weight: bold;
     text-align: center;
 }
@@ -47,3 +55,45 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .grid-item {
+    background: linear-gradient(to bottom, #39caf7,#057bd4);
+    padding: 20px;
+  }
+  
+  .grid-item h2 {
+    margin-top: 0;
+  }
