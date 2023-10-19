@@ -8,7 +8,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    color: #d400ff;
+    color: #000000;
     text-shadow: 2px 2px 4px rgba(0, 0, 0.5, 0.5);
     text-align: center;
     margin: 0;
@@ -46,7 +46,7 @@ a {
 }
 
 a:hover{
-    color:rgb(255, 0, 200);
+    color:rgb(0, 119, 255);
     font-weight: bold;
     text-align: center;
 }
@@ -87,11 +87,15 @@ header {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
   }
   
   .grid-item {
     background: linear-gradient(to bottom, #39caf7,#057bd4);
     padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
   }
   
   .grid-item h2 {
