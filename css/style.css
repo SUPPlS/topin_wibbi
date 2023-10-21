@@ -109,3 +109,8 @@ header {
   .grid-item h2 {
     margin-top: 0;
   }
+
+  table th, table td {
+    text-align: left;
+    padding: 10px;
+}
