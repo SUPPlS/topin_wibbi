@@ -110,7 +110,13 @@ header {
     margin-top: 0;
   }
 
-  table th, table td {
-    text-align: left;
-    padding: 10px;
+  table {
+    margin: 0 auto; /* Keskitä taulukko vaakasuunnassa */
+    text-align: left; /* Aseta tekstin oletusasema vasemmalle */
+    padding: 5px;
+}
+
+th {
+    text-align: left; /* Aseta sarakkeiden nimet vasempaan reunaan */
+    padding: px;
 }
