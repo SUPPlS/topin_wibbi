@@ -113,10 +113,10 @@ header {
   table {
     margin: 0 auto; /* Keskitä taulukko vaakasuunnassa */
     text-align: left; /* Aseta tekstin oletusasema vasemmalle */
-    padding: 5px;
+    padding: 0px;
 }
 
 th {
     text-align: left; /* Aseta sarakkeiden nimet vasempaan reunaan */
-    padding: px;
+    border-right: 60px solid #00000000;
 }
