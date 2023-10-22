@@ -12,6 +12,8 @@
     --nav-li-hover: 2px solid #fff;
     --grid-background-color: linear-gradient(to bottom, #39caf7,#057bd4);
     --nav-th-color: #00000000;
+    --theme-toggle: #00ff55;
+    --theme-toggle-hover: #ffd900;
   }
 .whitemode{
     --body-background: linear-gradient(to bottom, #ff00f2, #e5ff00);
@@ -23,10 +25,12 @@
     --header-color: #ffee00;
     --header1-background-color: #3c5d75;
     --header1-color: #85315b;
-    --nav-li-color: #2d2e72;
+    --nav-li-color: rgb(45, 46, 114);
     --nav-li-hover: 2px solid #228888;
     --grid-background-color: linear-gradient(to bottom, #204753,#8d2a64);
     --nav-th-color: #615b2b00;
+    --theme-toggle: #ffd900;
+    --theme-toggle-hover: #00ff55;
 }
 
 body{
@@ -150,4 +154,29 @@ header {
 th {
     text-align: left;
     border-right: 60px solid var(--nav-th-color);
+}
+
+#theme-toggle {
+  background: var(--theme-toggle);
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#theme-toggle:hover {
+  background-color: var(--theme-toggle-hover);
+}
+
+#oikeesti {
+  background: var(--theme-toggle-hover);
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#oikeesti:hover {
+  background-color: var(--theme-toggle);
 }
