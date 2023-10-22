@@ -1,5 +1,36 @@
+:root{
+    --body-background: linear-gradient(to bottom, #003e6d, #000c14);
+    --body-color: #ffffff;
+    --p-color: rgb(255, 255, 255);
+    --a-color: aliceblue;
+    --a-hover: rgb(0, 119, 255);
+    --header-background-color: #181818;
+    --header-color: #fff;
+    --header1-background-color: #003b68;
+    --header1-color: #ffffff;
+    --nav-li-color: #fff;
+    --nav-li-hover: 2px solid #fff;
+    --grid-background-color: linear-gradient(to bottom, #39caf7,#057bd4);
+    --nav-th-color: #00000000;
+  }
+.whitemode{
+    --body-background: linear-gradient(to bottom, #ff00f2, #e5ff00);
+    --body-color: #00ff00;
+    --p-color: rgb(114, 0, 9);
+    --a-color: rgb(0, 66, 124);
+    --a-hover: rgb(143, 0, 67);
+    --header-background-color: #a71313;
+    --header-color: #ffee00;
+    --header1-background-color: #3c5d75;
+    --header1-color: #85315b;
+    --nav-li-color: #2d2e72;
+    --nav-li-hover: 2px solid #228888;
+    --grid-background-color: linear-gradient(to bottom, #204753,#8d2a64);
+    --nav-th-color: #615b2b00;
+}
+
 body{
-    background: linear-gradient(to bottom, #003e6d, #000c14);
+    background: var(--body-background);
     background-size:auto;
     background-position: center;
     background-blend-mode: normal;
@@ -8,7 +39,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    color: #ffffff;
+    color: var(--body-color);
     text-shadow: 2px 2px 4px rgba(0, 0, 0.5, 0.5);
     text-align: center;
     margin: 0;
@@ -32,7 +63,7 @@ h2{
 
 p{
     font-family: 'Roboto', sans-serif;
-    color:rgb(255, 255, 255);
+    color: var(--p-color);
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -40,14 +71,14 @@ p{
 }
 
 a {
-    color:aliceblue;
+    color: var(--a-color);
     font-weight: bold;
     text-align: center;
     text-decoration: none;
 }
 
 a:hover{
-    color:rgb(0, 119, 255);
+    color: var(--a-hover);
     font-weight: bold;
     text-align: center;
 }
@@ -58,14 +89,14 @@ img{
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--header-background-color);
+    color: var(--header-color);
     padding: 10px 0;
   }
 
 .header1 {
-    background-color: #003b68;
-    color: #ffffff;
+    background-color: var(--header1-background-color);
+    color: var(--header1-color); 
     font-weight: bold;
     padding: 10px 0;
   }
@@ -82,12 +113,12 @@ header {
   }
   
   nav li a {
-    color: #fff;
+    color: var(--nav-li-color);
     text-decoration: none;
   }
   
   nav li a:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: var(--nav-li-hover);
   }
 
   .grid-container {
@@ -100,7 +131,7 @@ header {
   }
   
   .grid-item {
-    background: linear-gradient(to bottom, #39caf7,#057bd4);
+    background: var(--grid-background-color);
     padding: 20px;
     border-radius: 10px;
     overflow: hidden;
@@ -111,12 +142,12 @@ header {
   }
 
   table {
-    margin: 0 auto; /* Keskitä taulukko vaakasuunnassa */
-    text-align: left; /* Aseta tekstin oletusasema vasemmalle */
+    margin: 0 auto;
+    text-align: left;
     padding: 0px;
 }
 
 th {
-    text-align: left; /* Aseta sarakkeiden nimet vasempaan reunaan */
-    border-right: 60px solid #00000000;
+    text-align: left;
+    border-right: 60px solid var(--nav-th-color);
 }
