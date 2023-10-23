@@ -1,7 +1,7 @@
 # topin_wibbi
  täällä on kivaa jee
 
- 
+
 HTML (25%)
 
    	1/5: Basic HTML structure is present.
@@ -11,13 +11,15 @@ HTML (25%)
     Löytyy jokaiselta sivulta.
 
   	3/5:Use of forms, links, and media.
-	Media linkki löytyy projektit -> bluetooth kajari -> youtuub linkki.
+	Media linkki löytyy projektit -> bluetooth kajari -> youtuub linkki.¨
+	formssi löytyy tietoja kohdasta.
+	linkki löytyy pelit puolelta.
 
   	4/5:Tables are effectively used.
 	Table löytyy pelit osiosta.
 
    	5/5:Consistent use of semantic HTML throughout, ensuring better structure and understanding of the content.
-    Löytyy melkein jokaiselta sivulta.
+    Löytyy ainakin melkein jokaiselta sivulta ellei jopa kaikilta.
 
 CSS (25%)
 
@@ -28,7 +30,7 @@ CSS (25%)
 	Löytyy ID esimerkiksi button id="theme-toggle" ja "oikeesti". <main class="grid-container"> lisäksi.
 
    	3/5:Implementation of responsive design elements.
-    No kai ne
+    löytyy löytyy
 
    	4/5:Use of layouts for advanced user interfaces (arrays, float, flexbox, css grid)
 	Gridiä löytyy ainakin vieraskirja.html, mutta on sitä muuallakin käytetty.
@@ -53,10 +55,11 @@ JavaScript Basics (25%)
 Asynchronous Operations (25%)
 
    	1/5:Use of timers.
-	löytyy kelloa ja joulun odottelua vieraskirjasta.
+	löytyy kelloa setintervallii ja joulun odottelua vieraskirjasta + jotai muuta kivaa ;]
 
    	2/5:Successful implementation of an AJAX call or Fetch.
     3/5:Data from the asynchronous call is displayed on the webpage.
 	4/5:Error handling is implemented (for failed API calls, etc.).
  	5/5:Effective use of asynchronous data to enhance user experience (like filtering, sorting).
 
+https://suppls.github.io/topin_wibbi/
