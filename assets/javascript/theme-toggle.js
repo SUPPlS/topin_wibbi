@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem("theme", valkone ? "light" : "dark");
     }
 
-    // Check the theme choice in local storage and apply it
     const storedTheme = localStorage.getItem("theme");
     if (storedTheme === "light") {
         document.body.classList.add("whitemode");
